@@ -12,8 +12,8 @@ public class CurrencySetLoader {
         
         CurrencySet currencySet = new CurrencySet();
         currencySet.addCurrency(new Currency ("Euro","€","EUR"));
-        currencySet.addCurrency(new Currency ("Euro","£","GBP"));
-        currencySet.addCurrency(new Currency ("Euro","$","USD"));
+        currencySet.addCurrency(new Currency ("Pound","£","GBP"));
+        currencySet.addCurrency(new Currency ("Dollar","$","USD"));
         
         return currencySet;
     }

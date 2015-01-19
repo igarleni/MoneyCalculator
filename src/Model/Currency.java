@@ -22,4 +22,8 @@ public class Currency {
     public String getCode() {
         return code;
     }
+    
+    public String toString(){
+        return getName();
+    }
 }
